@@ -1,0 +1,50 @@
+input{
+    
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+button{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+	margin-top: 20px;
+    margin-left: 120px;
+	text-align:center;
+	border:2px solid black;
+	color: black;
+	border-radius:25px;
+	transition:0.5s;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+	cursor:pointer;
+    background: #34495e;
+}
+button:hover{
+    background: #9c27be;
+}
+.all{
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+img{
+    position: absolute;
+    cursor: pointer;
+    margin-left: 280px;
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.60;
+}
+img:hover{
+    opacity: 1;
+}
